@@ -7,8 +7,7 @@ var minMovesToSeat = function(seats, students) {
     // Passo 1: Ordenar as listas de cadeiras e alunos
     seats.sort((a, b) => a - b);
     students.sort((a, b) => a - b);
-    
-    
+        
     // Passo 2: Inicializar uma variável para contar o total de movimentos
     let totalMovements = 0;
     
