@@ -19,9 +19,6 @@ if result == -1
 else 
     puts "Elemento está presente na lista"
 end
-
-Essa foi minha solução inicial!
-
 =end
 
 def linear_search(arr, x)
