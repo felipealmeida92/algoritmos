@@ -27,3 +27,6 @@ def roman_to_int(s)
     total
 end
 
+puts roman_to_int("III")
+puts roman_to_int("LVIII")
+puts roman_to_int("MCMXCIV")
